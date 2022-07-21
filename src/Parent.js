@@ -8,6 +8,7 @@ function Parent() {
   const [childrenColor, setChildrenColor] = useState("#FFF");
   function handleChangeColor(newChildColor) {
     const newRandomColor = getRandomColor();
+    setColor(newRandomColor);
   return (
     <div className="parent" style={{ backgroundColor: color }}>
       <Child />
