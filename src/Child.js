@@ -9,4 +9,11 @@ function Child({ onChangeColor, color }) {
   }
   console.log(handleClick)
   return <div className = "child"
+  onClick={onChangeColor}
+  style = {
+    { backgroundColor: color}
+}
+/>;
+}
+
     export default Child;
