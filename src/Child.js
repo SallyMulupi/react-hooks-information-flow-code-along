@@ -8,4 +8,5 @@ function Child({ onChangeColor, color }) {
     onChangeColor(newColor);
   }
   console.log(handleClick)
+  return <div className = "child"
     export default Child;
