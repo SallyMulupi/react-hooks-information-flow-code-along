@@ -15,7 +15,7 @@ function Parent() {
   return (
     <div className="parent" style={{ backgroundColor: color }}>
       <Child  color={childrenColor}  onChangeColor={handleChangeColor}/>
-      <Child />
+      <Child color={childrenColor} onChangeColor={handleChangeColor} />
     </div>
   );
 }
